@@ -1,0 +1,25 @@
+.coaching{
+  grid-row: 1/-1;
+
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25%;
+    background-image: url(../../images/coach.jpg);
+  }
+  .card-goal {
+    display: flex;
+    margin-top: .5rem;
+    align-items: center;
+    color: var(--yellow);
+    .value {
+      font-size: 3rem;
+      margin-right: .5rem;
+    }
+    .metric {
+      font-size: .8rem;
+      font-weight: 600;
+      letter-spacing: 0.02rem;
+    }
+  }
+}
