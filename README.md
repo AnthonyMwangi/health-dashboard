@@ -5,3 +5,5 @@ This is a Design to Code challenge that done in [React](https://github.com/faceb
 
 ### UI Design Link
 -- [Dribbble UI Design](https://dribbble.com/shots/10819262-A-Health-Dashboard-Website);
+
+![Dribble Design Image](https://github.com/anthonymwangi/health-dashboard/blob/master/src.images/design.jpg?raw=true)
