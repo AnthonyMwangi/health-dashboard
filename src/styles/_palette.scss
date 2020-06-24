@@ -6,20 +6,7 @@
   --green: #3CBA78;
   --white: #FFFFFF;
   --gray: #8992A2;
+  --red: #F66056;
   --shadow: 0px 1px #E6E9EC;
-  --regular: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-@mixin font-face($font-name, $file-name, $font-weight: normal, $font-style: normal) {
-  @font-face {
-    font-family: $font-name;
-    src: url("#{$file-name}.eot");
-    src: url("#{$file-name}.eot?#iefix") format("embedded-opentype"),
-         url("#{$file-name}.woff2") format("woff2"),
-         url("#{$file-name}.woff") format("woff"),
-         url("#{$file-name}.ttf") format("truetype"),
-         url("#{$file-name}.svg#lineto-#{$file-name}") format("svg");
-    font-weight: $font-weight;
-    font-style: $font-style;
-  }
+  --regular: 'Avenir-Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }

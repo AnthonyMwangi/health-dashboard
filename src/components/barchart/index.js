@@ -1,25 +1,30 @@
 import './_styles.scss'
 import React from 'react'
 
-export default function bar_chart({ theme='dark', caption='chart caption', dataset=[], goalValue=0, goalMetric='metric/day' }) {
+export default function bar_chart({ theme='dark', caption='chart caption', dataset=[], goalValue=0, goalMetric='metric/day', className='' }) {
 
   return (
-    <div className={`bar-chart`}>
+    <div className={`bar-chart ${className}`}>
 
-      <div className="chart">
-        {
-          dataset.map((a,index) =>
-            <div
-              key={index}
-              className={`${theme} bar-${index+1}`}
-              style={{gridRowStart: (100-a)}}
-            />
-          )
-        }
-      </div>
+      <div className="chart-wrapper">
 
-      <div className={`caption ${theme}`}>
-        {caption}
+        <div className="chart">
+          {
+            dataset.map((a,index) =>
+              <div
+                key={index}
+                title={a}
+                style={{gridRowStart: (100-a)}}
+                className={`${theme} bar-${index+1}`}
+              />
+            )
+          }
+        </div>
+
+        <div className={`caption ${theme}`}>
+          {caption}
+        </div>
+
       </div>
 
       <div className={`goal ${theme}`}>

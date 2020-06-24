@@ -1,4 +1,11 @@
 .bar-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &.full {
+    height: 100%;
+  }
 
   .chart {
     width: 100%;
@@ -10,6 +17,7 @@
   }
 
   [class*="bar"] {
+    cursor: pointer;
     grid-row-end: 100;
     border-radius: .5rem;
     &.light {
@@ -23,15 +31,13 @@
   }
 
   .caption {
-    opacity: .8;
     font-size: .8rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: .5rem;
     color: var(--white);
     letter-spacing: 0.02rem;
     color: var(--white);
     &.dark {
-      opacity: .9;
       color: var(--dark);
     }
   }
@@ -42,20 +48,18 @@
     align-items: baseline;
     color: var(--white);
     .value {
+      line-height: 1;
       font-size: 2rem;
       margin-right: .5rem;
     }
     .metric {
-      opacity: .7;
       font-size: .8rem;
       font-weight: 500;
       letter-spacing: 0.02rem;
     }
     &.dark {
       color: var(--dark);
-      .metric {
-        opacity: .9;
-      }
+      .metric { opacity: .95 }
     }
   }
 

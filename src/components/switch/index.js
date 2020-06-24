@@ -5,7 +5,7 @@ export default function Switch() {
   return (
     <div className='toggle-switch'>
       <input type="checkbox" id="switch" />
-      <label for="switch"/>
+      <label htmlFor="switch"/>
     </div>
   )
 }

@@ -4,21 +4,25 @@
   .avatar {
     width: 3rem;
     height: 3rem;
+    cursor: pointer;
     border-radius: 25%;
     background-image: url(../../images/coach.jpg);
   }
   .card-goal {
     display: flex;
     margin-top: .5rem;
-    align-items: center;
+    align-items: top;
     color: var(--yellow);
     .value {
+      line-height: 1;
       font-size: 3rem;
       margin-right: .5rem;
     }
     .metric {
       font-size: .8rem;
-      font-weight: 600;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-top: .5rem;
       letter-spacing: 0.02rem;
     }
   }

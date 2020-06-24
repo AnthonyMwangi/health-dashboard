@@ -1,6 +1,6 @@
-@import './palette';
 @import './fonts';
-@import './mixins';
+
+@import './palette';
 
 * { box-sizing: border-box }
 
@@ -15,6 +15,7 @@ body {
   font-size: 16px;
   color: var(--dark);
   font-weight: 700;
+  background: var(--muted);
   font-family: var(--regular);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -56,6 +57,13 @@ input, select, textarea, button {
   grid-template-rows: 100vh;
   grid-template-columns: 4rem 1fr;
   background-color: var(--muted);
+  overflow-y: scroll;
+
+  .avatar, .logo {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    &:hover { transform: scale(1.1) }
+  }
 
   @import url(./app-body.scss);
 
