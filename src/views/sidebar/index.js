@@ -16,7 +16,7 @@ export default function _sidebar() {
 
         <div className="image logo"/>
 
-        <div className="sidebar-menu">
+        <div className="sidebar-menu noselect">
           <div className="menu-item active">
             <Dashboard className='icon'/>
           </div>

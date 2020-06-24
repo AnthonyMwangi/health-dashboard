@@ -27,3 +27,20 @@
     }
   }
 }
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .coaching{
+    grid-row: auto;
+
+    .card-content {
+      margin-top: 1.25rem;
+    }
+
+    .card-goal {
+      margin-top: 1.25rem;
+    }
+
+  }
+
+}

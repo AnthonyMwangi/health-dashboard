@@ -19,7 +19,7 @@ export default function MedicalRecord(props) {
   const DocumentIcon = iconset[icon];
 
   return (
-    <div className='medical-record'>
+    <div className='medical-record noselect'>
 
       <div className="document">
         <DocumentIcon className='icon'/>

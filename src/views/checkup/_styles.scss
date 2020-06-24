@@ -48,6 +48,32 @@
       }
     }
 
+  }
+
+}
+
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .next-checkup {
+    width: 100%;
+    height: 6.5rem;
+    padding: 1rem .75rem;
+    background: var(--white);
+
+    .confetti { display: none }
+
+    .title { font-size: .9rem }
+
+    .content {
+      .doctors {
+        padding-left: 0.6rem;
+        .doctor {
+          width: 2.25rem;
+          height: 2.25rem;
+        }
+      }
+    }
 
   }
 

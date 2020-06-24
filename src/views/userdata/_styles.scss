@@ -27,7 +27,6 @@
       height: 2.8rem;
       padding: .5rem;
       cursor: pointer;
-      font-size: 1.5rem;
       position: absolute;
       border-radius: 50%;
       align-items: center;
@@ -62,5 +61,50 @@
       padding-top: .75rem;
     }
   }
+
+}
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .user-metadata {
+    grid-gap: 1.25rem;
+    padding: 1rem .75rem;
+    border-radius: .5rem;
+    margin-bottom: 1.25rem;
+    background: var(--white);
+    border: 1px solid darken(#DCDDE4,5);
+
+    .avatar {
+      width: 4rem;
+      height: 4rem;
+      padding: .5rem;
+      .button {
+        right: -.15rem;
+        bottom: -.15rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        padding: .35rem;
+        border: .2rem solid var(--muted);
+      }
+    }
+
+    .fit-points {
+      padding-top: .25rem;
+      padding-right: .25rem;
+      align-content: flex-end;
+      justify-content: flex-end;
+      .count {
+        font-size: 3.5rem;
+        line-height: .8;
+      }
+      .label {
+        padding-top: .0rem;
+        align-self: flex-end;
+        padding-bottom: .15rem;
+      }
+    }
+
+  }
+
 
 }

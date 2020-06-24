@@ -111,3 +111,70 @@
   }
 
 }
+
+@media all and (min-device-width: 320px) and (max-device-width: 720px) {
+
+  .medical-record {
+    box-shadow: none;
+    grid-template-columns: auto 1fr;
+
+    .document {
+      width: 5.5rem;
+      display: grid;
+      overflow: hidden;
+      justify-content: space-between;
+      grid-template-rows: auto 1fr auto;
+
+      .institution {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+      }
+
+      .page-count {
+        font-size: .6rem;
+      }
+
+    }
+
+    .content {
+
+      .title {
+        font-size: .8rem;
+      }
+
+      .date {
+        font-size: .6rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      .stats {
+
+        .statistic {
+          margin-right: 1rem;
+
+          .count {
+            .value {
+              font-size: .9rem;
+            }
+            .icon {
+              font-size: .7rem;
+            }
+          }
+
+          .label {
+            opacity: .6;
+            font-size: .5rem;
+            margin-top: 0.45rem;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

@@ -11,7 +11,7 @@ export default function Checkup() {
       <div className="title">Next check-up</div>
       <div className="content">
 
-        <div className="doctors">
+        <div className="doctors noselect">
           {dataset.map((a) =>
             <div className="doctor image" key={a} title={a} index={index(dataset, a)} />
           )
