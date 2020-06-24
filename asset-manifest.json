@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/health-dashboard/static/css/main.a121bbc1.chunk.css",
+    "main.css": "/health-dashboard/static/css/main.f8598454.chunk.css",
     "main.js": "/health-dashboard/static/js/main.b146e019.chunk.js",
     "main.js.map": "/health-dashboard/static/js/main.b146e019.chunk.js.map",
     "runtime-main.js": "/health-dashboard/static/js/runtime-main.9e9b959c.js",
@@ -8,9 +8,9 @@
     "static/js/2.4ba0e267.chunk.js": "/health-dashboard/static/js/2.4ba0e267.chunk.js",
     "static/js/2.4ba0e267.chunk.js.map": "/health-dashboard/static/js/2.4ba0e267.chunk.js.map",
     "index.html": "/health-dashboard/index.html",
-    "precache-manifest.980c0e312c014fba1acc7e219c9b299b.js": "/health-dashboard/precache-manifest.980c0e312c014fba1acc7e219c9b299b.js",
+    "precache-manifest.1391bdbbed80f610d17f22912812b791.js": "/health-dashboard/precache-manifest.1391bdbbed80f610d17f22912812b791.js",
     "service-worker.js": "/health-dashboard/service-worker.js",
-    "static/css/main.a121bbc1.chunk.css.map": "/health-dashboard/static/css/main.a121bbc1.chunk.css.map",
+    "static/css/main.f8598454.chunk.css.map": "/health-dashboard/static/css/main.f8598454.chunk.css.map",
     "static/js/2.4ba0e267.chunk.js.LICENSE.txt": "/health-dashboard/static/js/2.4ba0e267.chunk.js.LICENSE.txt",
     "static/media/_styles.scss": "/health-dashboard/static/media/menu-button.7d34ed45.svg",
     "static/media/confetti.svg": "/health-dashboard/static/media/confetti.c7de97c7.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.9e9b959c.js",
     "static/js/2.4ba0e267.chunk.js",
-    "static/css/main.a121bbc1.chunk.css",
+    "static/css/main.f8598454.chunk.css",
     "static/js/main.b146e019.chunk.js"
   ]
 }
